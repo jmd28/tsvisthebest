@@ -5,22 +5,14 @@ import re
 
 f = open("PhilosophersFullToo.csv")
 phils = f.read().splitlines()
-# phils = ["Aristotle", "Plato", "Kant"]
 
 # remove header
 phils = phils[1:]
 
-# phils = [p.split()[-1].upper() for p in phils]
-
-# for p in phils:
-    # print(p)
-
 inp = open("../data/cleanedfinal.txt")
-# inp = open("test.txt")
 inp = inp.read().splitlines()
 
 # inp = sys.stdin
-
 
 
 # currently only works if author cited with full name or initials 
