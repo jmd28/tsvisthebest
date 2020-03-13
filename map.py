@@ -14,9 +14,8 @@ inp = inp.read().splitlines()
 
 # inp = sys.stdin
 
-
-# currently only works if author cited with full name or initials 
-# (not surname only where other names are present)
+# returns whether a philosopher appears in a single citation
+# if only surname given, assumes a match for the philosophers in our list
 def in_citation(philosopher, citation):
     
     names = [n.upper() for n in philosopher.split()] #splits entire name into subnames
