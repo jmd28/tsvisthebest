@@ -1,5 +1,8 @@
 # tsvisthebest
-wow
+
+A map reduce style project to process a TSV-formatted file - obtained excruciatingly by manually dowloading 185000 records in batches of 500 from the Web of Science resource banks.
+
+This was a commission from a geography lecturer interested to learn the frequencies with which geographical papers cite the works of certain philosophers, on a per decade basis.
 
 ### usage:
 remove null bytes from file (required on first run): <br>
